@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Admin User",
+      "email": "admin@ecomars.com",
+      "passwordHash": "ca22a1985cf9d05767f1c1dc7199aa10478b35adcb87c9b95dc1e27285f75259",
+      "role": "admin",
+      "createdAt": "2026-08-17T14:34:32.073Z"
+    },
+    {
+      "id": "usr_customer",
+      "name": "John Doe",
+      "email": "user@ecomars.com",
+      "passwordHash": "d5177a5c97a0f259c55e3ccc6b2fc8ff26fd39a6e8e83cb86dea7d40d118ae4b",
+      "role": "user",
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "title": "Aura Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "description": "Premium spatial audio, active noise cancellation, 40-hour battery life with ultra-comfort memory foam earcups.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "stock": 24,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_2",
+      "title": "Minimalist Chronograph Minimalist Watch",
+      "price": 149.5,
+      "category": "Fashion",
+      "description": "Italian leather strap, sapphire crystal glass, 50m water resistance. Timeless elegance for everyday wear.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.6,
+      "stock": 18,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_3",
+      "title": "Ergonomic Desk Mechanical Keyboard",
+      "price": 119,
+      "category": "Electronics",
+      "description": "Custom hot-swappable switches, RGB backlight, wireless Bluetooth 5.2 and Type-C wired connectivity.",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.9,
+      "stock": 40,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_4",
+      "title": "Ceramic Artisan Pour-Over Coffee Set",
+      "price": 54.99,
+      "category": "Home & Kitchen",
+      "description": "Handcrafted stoneware dripper, thermal glass carafe, and stainless steel filter for the perfect brew experience.",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "stock": 11,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_5",
+      "title": "Urban Explorer Lightweight Backpack",
+      "price": 89.99,
+      "category": "Fashion",
+      "description": "Water-resistant recycled fabric, dedicated 16\" laptop sleeve, secret security pocket, and ergonomic shoulder padding.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.5,
+      "stock": 30,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_6",
+      "title": "Smart Fitness Tracker & Heart Monitor",
+      "price": 79.95,
+      "category": "Electronics",
+      "description": "AMOLED touch display, continuous heart rate tracking, SpO2 sensor, sleep analysis, and 14-day battery.",
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.4,
+      "stock": 50,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_7",
+      "title": "Scandinavian Ceramic Desk Lamp",
+      "price": 68,
+      "category": "Home & Kitchen",
+      "description": "Dimmable warm LED light, matte ceramic base with solid oak accents. Ideal for study desks and bedside tables.",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "stock": 15,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    },
+    {
+      "id": "prod_8",
+      "title": "Organic Cotton Oversized Hoodie",
+      "price": 64.99,
+      "category": "Fashion",
+      "description": "Super soft 450GSM heavy organic cotton, vintage garment-dyed finish, relaxed streetwear silhouette.",
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "stock": 22,
+      "createdAt": "2026-08-17T14:34:32.074Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_7324",
+      "userId": "guest",
+      "customerName": "h",
+      "customerEmail": "j@gmail.com",
+      "shippingAddress": "vvgg",
+      "items": [
+        {
+          "id": "prod_1",
+          "title": "Aura Wireless Noise-Canceling Headphones",
+          "price": 199.99,
+          "category": "Electronics",
+          "description": "Premium spatial audio, active noise cancellation, 40-hour battery life with ultra-comfort memory foam earcups.",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+          "rating": 4.8,
+          "stock": 25,
+          "createdAt": "2026-08-17T14:34:32.074Z",
+          "quantity": 1
+        },
+        {
+          "id": "prod_4",
+          "title": "Ceramic Artisan Pour-Over Coffee Set",
+          "price": 54.99,
+          "category": "Home & Kitchen",
+          "description": "Handcrafted stoneware dripper, thermal glass carafe, and stainless steel filter for the perfect brew experience.",
+          "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+          "rating": 4.7,
+          "stock": 12,
+          "createdAt": "2026-08-17T14:34:32.074Z",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 254.98,
+      "status": "Pending",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-08-17T14:39:04.159Z"
+    },
+    {
+      "id": "ord_1001",
+      "userId": "usr_customer",
+      "customerName": "John Doe",
+      "customerEmail": "user@ecomars.com",
+      "shippingAddress": "123 Tech Street, Silicon Valley, CA 94025",
+      "items": [
+        {
+          "id": "prod_1",
+          "title": "Aura Wireless Noise-Canceling Headphones",
+          "price": 199.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 199.99,
+      "status": "Delivered",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-08-15T14:34:32.074Z"
+    }
+  ]
+}

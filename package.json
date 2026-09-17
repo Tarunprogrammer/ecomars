@@ -1,0 +1,15 @@
+{
+  "name": "ecomars-mern",
+  "version": "1.0.0",
+  "description": "Simple and lightweight MERN stack e-commerce app",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "node -e \"const { spawn } = require('child_process'); spawn('node', ['server/server.js'], { stdio: 'inherit' }); spawn('npm', ['--prefix', 'client', 'run', 'dev'], { stdio: 'inherit', shell: true });\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
